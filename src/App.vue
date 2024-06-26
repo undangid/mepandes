@@ -25,7 +25,7 @@ const hidePopup = () => {
 }
 
 const openMap = () => {
-  window.open('https://maps.app.goo.gl/YbP7FdCsSTCWo63LA');
+  window.open('https://maps.app.goo.gl/spctNu1J8w7618X4A?g_st=iw');
 }
 </script>
 
@@ -62,15 +62,14 @@ const openMap = () => {
     <div class="overflow-hidden rounded-lg bg-white shadow">
       <div class="px-4 py-8 sm:p-6 text-center flex flex-col text-indigo-900" data-aos="fade-up" data-aos-delay="100">
         <div class="font-dancing-script text-2xl flex flex-col gap-y-2">
-          <p>I Gede T.A Nugraha</p>
-          <p>I Gede Nyoman T.A Panji Wijaksana</p>
-          <p>I Gede Ketut Adi Setiadarma</p>
+          <p>Ida Bagus Gede Sindhu</p>
+          <p>Ida Ayu Made Sintya Maha Dewi</p>
         </div>
-        <p class="my-8 font-semibold tracking-widest uppercase">Putra dari pasangan</p>
+        <p class="my-8 font-semibold tracking-widest uppercase">Putra dan Putri dari pasangan</p>
         <div class="font-dancing-script text-2xl">
-          <p>I Gede Nyoman Mariasa</p>
+          <p>Ida Bagus Gede Wisnawa, S.Pd.B</p>
           <p>&</p>
-          <p>Ida Ayu Asri</p>
+          <p>Ida Ayu Alit Rustini</p>
         </div>
         <img src="./assets/leaf.png" class="h-10 mt-4 self-center">
       </div>
@@ -90,19 +89,22 @@ const openMap = () => {
           <p class="font-bold">UPACARA MAPANDES/ POTONG GIGI</p>
           <p>putra kami yang akan diselenggarakan pada:</p>
           <div class="font-bold flex flex-col gap-y-2 my-4 uppercase">
-            <p class="text-xl">Sabtu, 20 April 2024</p>
+            <p class="text-xl">Kamis, 25 Juli 2024</p>
             <p class="text-xl">13:00 Wita - Selesai</p>
             <div class="text-sm">
-              <p>Br. Peken, Belayu, </p>
+              <p>Br. Pilisan Kaba - Kaba, </p>
               <p>
-                Marga, Tabanan
+                Kediri, Tabanan
+              </p>
+              <p>
+                (Geriya Tandeg Gede)
               </p>
             </div>
           </div>
         </div>
         <div class="my-4" data-aos="fade-up" data-aos-delay="200">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8202358534018!2d115.16307477618491!3d-8.516827791525474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23b6b56ec883b%3A0x5e717ca34ec6d06!2sTemu%20Kangen!5e0!3m2!1sen!2sid!4v1712580260859!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.1073097209583!2d115.1467378!3d-8.5856804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23977309aeeed%3A0x6db984339a269149!2sJl.%20Sentra%20No.36%2C%20Kaba-Kaba%2C%20Kec.%20Kediri%2C%20Kabupaten%20Tabanan%2C%20Bali%2082121!5e0!3m2!1sen!2sid!4v1719412160410!5m2!1sen!2sid"
             width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
           <button @click="openMap" type="button"
